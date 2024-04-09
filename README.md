@@ -52,24 +52,24 @@ mkdir templates
 
 Create an HTML file for your web interface. Let’s call it index.html. Place it inside the templates folder.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Blinkt! Controller</title>
-</head>
-<body>
-<h1>Blinkt! Controller</h1>
-<form action="/run-script" method="post">
-<select name="script">
-<option value="example1.py">Example 1</option>
-<option value="example2.py">Example 2</option>
-<!-- Add more options based on your example scripts -->
-</select>
-<button type="submit">Go</button>
-</form>
-</body>
-</html>
+***<!DOCTYPE html>
+***<html lang="en">
+***<head>
+***<meta charset="UTF-8">
+***<title>Blinkt! Controller</title>
+***</head>
+***<body>
+***<h1>Blinkt! Controller</h1>
+***<form action="/run-script" method="post">
+***<select name="script">
+***<option value="example1.py">Example 1</option>
+***<option value="example2.py">Example 2</option>
+***<!-- Add more options based on your example scripts -->
+***</select>
+***<button type="submit">Go</button>
+***</form>
+***</body>
+***</html>
 
 Modify app.py to render this template:
 
